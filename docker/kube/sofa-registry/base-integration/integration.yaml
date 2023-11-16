@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: deepflow
   name: sofa-registry-integration
   labels:
     app: sofa-registry
